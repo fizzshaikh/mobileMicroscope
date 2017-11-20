@@ -1,0 +1,7 @@
+https://learn.adafruit.com/adafruit-dc-and-stepper-motor-hat-for-raspberry-pi/using-stepper-motors
+
+http://www.explainthatstuff.com/how-stepper-motors-work.html
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=55580
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=110368
