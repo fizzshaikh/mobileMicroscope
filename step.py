@@ -36,15 +36,15 @@ for x in range(step_count):
 	sleep(delay)
 
 #Microstepping
-MODE = (14,15,18)
-GPIO.setup(MODE, GPIO.OUT)
-RESOLUTION = {'Full':(0,0,0),
-	'Half':(1,0,0),
-	'1/4':(0,1,0),
-	'1/8':(1,1,0)
-	'1/16':(0,0,1)
-	'1/32':(1,0,1)}
-GPIO.output(MODE, RESOLUTION['1/32'])
+#MODE = (14,15,18)
+#GPIO.setup(MODE, GPIO.OUT)
+#RESOLUTION = {'Full':(0,0,0),
+#	'Half':(1,0,0),
+#	'1/4':(0,1,0),
+#	'1/8':(1,1,0),
+#	'1/16':(0,0,1),
+#	'1/32':(1,0,1)}
+#GPIO.output(MODE, RESOLUTION['1/32'])
 
 step_count=spr*32
 delay=0.0208/32
